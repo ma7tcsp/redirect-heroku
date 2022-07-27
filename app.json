@@ -1,0 +1,14 @@
+{
+  "name": "Heroku Redirect",
+  "repository": "https://github.com/ma7tcsp/redirect-heroku",
+  "env": {
+    "NEW_BASE_URL": {
+      "description": "Redirect all requests to this URL.",
+      "value": "https://embedded-demo-builder.herokuapp.com"
+    },
+    "REDIRECT_STATUS": {
+      "description": "Redirect with this HTTP status code.",
+      "value": "302"
+    }
+  }
+}
